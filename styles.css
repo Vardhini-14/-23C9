@@ -7,8 +7,9 @@ body {
     padding: 20px;
 }
 
+/* Container for centering and content layout */
 .container {
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 20px;
     background-color: #fff;
@@ -16,26 +17,21 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+/* Heading styling */
 h1, h2 {
     text-align: center;
-    color: #1e90ff;
+    color: #1eff3c;
+    margin-bottom: 20px;
 }
 
+/* Paragraph styling */
 p {
     font-size: 18px;
     line-height: 1.6;
     text-align: justify;
 }
 
-.yellow {
-    background-color: #fff8dc;
-    padding: 20px;
-    margin: 20px 0;
-    border-radius: 8px;
-    overflow-x: auto;
-    border: 1px solid #ccc;
-}
-
+/* Input and button styling */
 .input-section {
     text-align: center;
     margin: 20px 0;
@@ -63,6 +59,7 @@ button:hover {
     background-color: #218838;
 }
 
+/* Output styling */
 #output {
     background-color: #e9ecef;
     padding: 10px;
@@ -70,11 +67,41 @@ button:hover {
     border: 1px solid #ccc;
     width: 100%;
     max-width: 300px;
-    margin: 0 auto;
+    margin: 20px auto;
+    text-align: center;
+}
+
+/* Section styling for different content blocks */
+.red, .we, .adv {
+    padding: 20px;
+    background-color: white;
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the code block */
+.yellow {
+    padding: 20px;
+    background-color: #333;
+    font-size: 16px;
+    color: #ccc;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow-x: auto;
+}
+
+/* List styling */
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    line-height: 1.6;
 }
 
 .adv ul {
     list-style: disc;
     padding-left: 20px;
-    line-height: 1.6;
 }
