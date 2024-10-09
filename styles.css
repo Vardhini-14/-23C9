@@ -1,29 +1,52 @@
+/* General body styling */
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f9;
     color: #333;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: auto;
-    width: auto;
     margin: 0;
+    padding: 20px;
 }
 
-/*.container {
-    background-color: white;
+.container {
+    max-width: 800px;
+    margin: 0 auto;
     padding: 20px;
-    width: 900px;
-    height: 400px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
     text-align: center;
-}*/
+    color: #1e90ff;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.yellow {
+    background-color: #fff8dc;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    overflow-x: auto;
+    border: 1px solid #ccc;
+}
+
+.input-section {
+    text-align: center;
+    margin: 20px 0;
+}
 
 input {
     padding: 10px;
-    /*width: calc(100% - 22px);*/
-    margin-bottom: 10px;
+    width: 300px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    margin-right: 10px;
 }
 
 button {
@@ -33,6 +56,7 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    transition: background-color 0.3s;
 }
 
 button:hover {
@@ -44,40 +68,13 @@ button:hover {
     padding: 10px;
     border-radius: 5px;
     border: 1px solid #ccc;
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
 }
-.red
-{
-    padding: 10px 20px;
-    background-color: white;
-    font-size: 25px;
-    color: black;
-    text-align: justify;
 
-    
-    
-    font-family: Arial, Helvetica, sans-serif;
-}
-.we
-{
-    padding: 10px 20px;
-    background-color: white;
-    font-size: 25px;
-    color: black;
-    text-align: justify;
-}
-.yellow
-{
-    padding: 10px 20px;
-    background-color: #333;
-    font-size: 23px;
-    color: #ccc;
-    text-align: justify;
-}
-.adv
-{
-    padding: 10px 20px;
-    background-color: white;
-    font-size: 25px;
-    color: black;
-    text-align: justify;
+.adv ul {
+    list-style: disc;
+    padding-left: 20px;
+    line-height: 1.6;
 }
